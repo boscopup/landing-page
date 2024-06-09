@@ -17,12 +17,14 @@ body {
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
+    align-items: center;
 }
 
 .header-row1 {
     font-size: 24px;
     display: flex;
     flex-direction: row;
+    width: 1000px;
     justify-content: space-between;
 }
 
@@ -39,11 +41,13 @@ body {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    margin-left: auto;
 }
 
 .header-row2 {
     display: flex;
     flex-direction: row;
+    max-width: 1000px;
 }
 
 .header-row2-left {
@@ -71,6 +75,7 @@ body {
 .header-row2-right {
     justify-self: center;
     align-self: center;
+    margin-left: auto;
 }
 
 .content {
