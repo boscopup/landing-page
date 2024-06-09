@@ -47,7 +47,8 @@ body {
 .header-row2 {
     display: flex;
     flex-direction: row;
-    max-width: 1000px;
+    width: 1000px;
+    padding-bottom: 50px;
 }
 
 .header-row2-left {
@@ -78,6 +79,10 @@ body {
     margin-left: auto;
 }
 
+.header-row2-right img {
+    width: 300px;
+    height: auto;
+}
 .content {
     display: flex;
     flex-direction: column;
