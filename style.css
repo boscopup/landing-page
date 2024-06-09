@@ -1,3 +1,7 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .header {
     background-color: #1F2937;
 }
@@ -20,7 +24,7 @@
 
 .header-row2-left1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
 }
 
 .header-row2-left3 button {
@@ -50,7 +54,7 @@
 
 .quote-text {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
