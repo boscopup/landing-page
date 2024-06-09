@@ -73,6 +73,35 @@ body {
     align-self: center;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.content-main-text {
+    align-self: center;
+    padding: 30px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.image-list {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    gap: 40px;
+    padding: 30px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .image img {
     height: 200px;
     width: 200px;
@@ -83,6 +112,7 @@ body {
 .image p {
     font-size: 18px;
     color: #1F2937;
+    text-align: center;
 }
 
 .quote {
