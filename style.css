@@ -91,9 +91,10 @@ body {
 .image-list {
     display: flex;
     flex-direction: row;
-    width: 900px;
+    flex-basis: 200px;
     gap: 40px;
     padding: 30px;
+    flex-wrap: wrap;
 }
 
 .image {
@@ -113,6 +114,7 @@ body {
     font-size: 18px;
     color: #1F2937;
     text-align: center;
+    width: 200px;
 }
 
 .quote {
