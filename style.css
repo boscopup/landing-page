@@ -1,5 +1,14 @@
 body {
     font-family: "Roboto", sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+
+.main-body {
+    background-color: white;
 }
 
 .header {
